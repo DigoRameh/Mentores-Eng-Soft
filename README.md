@@ -45,25 +45,33 @@ A API de Mentores funciona de forma independente, mas expõe seus dados via endp
 ```bash
 git clone https://github.com/seu-usuario/mentor_service.git
 cd mentor_service
+```
 
 2. Crie e ative o ambiente virtual:
 
+```bash
 python -m venv venv
 source venv/bin/activate
+```
 
 3. Instale as dependências:
 
+```bash
 pip install -r requirements.txt
+```
 
 4. Inicie o servidor de desenvolvimento:
 
+```bash
 uvicorn app.main:app --reload
+```
 
 5. Acesse a docmentação automática:
 
+```bash
 Swagger UI: http://localhost:8000/docs
 ReDoc: http://localhost:8000/redoc
-
+```
 
 ## 👨‍💻 Desenvolvedores Responsáveis
 
