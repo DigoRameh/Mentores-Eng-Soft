@@ -51,7 +51,7 @@ cd mentor_service
 
 ```bash
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate # Windows: venv\Scripts\activate
 ```
 
 3. Instale as dependências:
