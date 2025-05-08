@@ -68,10 +68,9 @@ uvicorn app.main:app --reload
 
 5. Acesse a docmentação automática:
 
-```bash
 Swagger UI: http://localhost:8000/docs
 ReDoc: http://localhost:8000/redoc
-```
+
 
 ## 👨‍💻 Desenvolvedores Responsáveis
 
