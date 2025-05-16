@@ -9,8 +9,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["mentores-gqgegpddgjdwb7aw.brazilsouth-01.azurewebsites.net"],
     allow_credentials=True,
-    allow_methods=["mentores-gqgegpddgjdwb7aw.brazilsouth-01.azurewebsites.net"],
-    allow_headers=["mentores-gqgegpddgjdwb7aw.brazilsouth-01.azurewebsites.net"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 Base.metadata.create_all(bind=engine)
