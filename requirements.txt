@@ -2,3 +2,5 @@ fastapi
 uvicorn
 sqlalchemy
 sqlalchemy.orm
+dotenv
+mysql.connector
